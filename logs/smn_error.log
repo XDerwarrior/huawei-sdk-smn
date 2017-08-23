@@ -1,0 +1,20 @@
+2017-08-22 10:28:10 [main:32]-[ERROR] com.huawei.smn.model.request.topic.CreateTopicRequest.getRequestUri(CreateTopicRequest.java:71) Create topic request projectId is null.
+2017-08-22 10:33:47 [main:31]-[ERROR] com.huawei.smn.model.request.topic.CreateTopicRequest.getRequestUri(CreateTopicRequest.java:71) Create topic request projectId is null.
+2017-08-22 10:35:19 [main:27]-[ERROR] com.huawei.smn.model.request.topic.CreateTopicRequest.getRequestUri(CreateTopicRequest.java:71) Create topic request projectId is null.
+2017-08-22 10:39:42 [main:24]-[ERROR] com.huawei.smn.model.request.topic.CreateTopicRequest.getRequestUri(CreateTopicRequest.java:71) Create topic request projectId is null.
+2017-08-22 10:40:06 [main:27]-[ERROR] com.huawei.smn.model.request.topic.CreateTopicRequest.getRequestUri(CreateTopicRequest.java:71) Create topic request projectId is null.
+2017-08-22 10:44:25 [main:42]-[ERROR] com.huawei.smn.model.request.topic.CreateTopicRequest.getRequestUri(CreateTopicRequest.java:71) Create topic request projectId is null.
+2017-08-22 10:44:58 [main:7]-[ERROR] com.huawei.smn.model.request.topic.CreateTopicRequest.getRequestUri(CreateTopicRequest.java:71) Create topic request projectId is null.
+2017-08-22 10:47:45 [main:24]-[ERROR] com.huawei.smn.model.request.topic.CreateTopicRequest.getRequestUri(CreateTopicRequest.java:71) Create topic request projectId is null.
+2017-08-22 10:50:17 [main:6]-[ERROR] com.huawei.smn.model.request.topic.CreateTopicRequestTest.testGetRequestUri(CreateTopicRequestTest.java:37) projectId:cffe4fc4c9a54219b60dbaf7b586e132
+2017-08-22 10:50:17 [main:29]-[ERROR] com.huawei.smn.model.request.topic.CreateTopicRequest.getRequestUri(CreateTopicRequest.java:71) Create topic request projectId is null.
+2017-08-22 10:55:58 [main:24]-[ERROR] com.huawei.smn.model.request.topic.CreateTopicRequestTest.testGetRequestUri(CreateTopicRequestTest.java:37) projectId:cffe4fc4c9a54219b60dbaf7b586e132
+2017-08-22 10:55:58 [main:30]-[ERROR] com.huawei.smn.model.request.topic.CreateTopicRequest.getRequestUri(CreateTopicRequest.java:71) Create topic request projectId is null.
+2017-08-22 11:02:58 [main:23]-[ERROR] com.huawei.smn.model.request.topic.CreateTopicRequestTest.testGetRequestUri(CreateTopicRequestTest.java:31) projectId:cffe4fc4c9a54219b60dbaf7b586e132
+2017-08-22 11:03:23 [main:31]-[ERROR] com.huawei.smn.model.request.topic.CreateTopicRequest.getRequestUri(CreateTopicRequest.java:71) Create topic request projectId is null.
+2017-08-22 11:04:06 [main:23]-[ERROR] com.huawei.smn.model.request.topic.CreateTopicRequestTest.testGetRequestUri(CreateTopicRequestTest.java:31) projectId:null
+2017-08-22 11:04:06 [main:29]-[ERROR] com.huawei.smn.model.request.topic.CreateTopicRequest.getRequestUri(CreateTopicRequest.java:71) Create topic request projectId is null.
+2017-08-22 11:13:50 [main:26]-[ERROR] com.huawei.smn.model.request.topic.UpdateTopicAttributeRequest.getRequestUri(UpdateTopicAttributeRequest.java:92) Attributte name is null or is not valid
+2017-08-22 11:14:01 [main:31]-[ERROR] com.huawei.smn.model.request.topic.UpdateTopicAttributeRequest.getRequestUri(UpdateTopicAttributeRequest.java:92) Attributte name is null or is not valid
+2017-08-22 11:15:23 [main:29]-[ERROR] com.huawei.smn.model.request.topic.UpdateTopicAttributeRequest.getRequestUri(UpdateTopicAttributeRequest.java:92) Attributte name is null or is not valid
+2017-08-22 11:16:24 [main:30]-[ERROR] com.huawei.smn.model.request.topic.UpdateTopicAttributeRequest.getRequestUri(UpdateTopicAttributeRequest.java:92) Attributte name is null or is not valid

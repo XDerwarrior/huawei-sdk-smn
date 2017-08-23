@@ -1,0 +1,10 @@
+2017-08-07 12:25:01 [main:5]-[INFO] com.huawei.smn.common.SmnConfiguration.reload(SmnConfiguration.java:110) Properties filepath is:config\configuration.properties
+2017-08-07 12:25:02 [main:382]-[INFO] common.huawei.smn.TestMain.main(TestMain.java:51) SmnConfiguration [filepath=config\configuration.properties, domainName=12771130963552C6, regionId=cn-north-1, iamEndpoint=iam.cn-north-1.myhwclouds.com, smnEndpoint=smn.cn-north-1.myhwclouds.com]
+2017-08-07 12:25:02 [main:389]-[INFO] com.huawei.smn.service.AbstractCommonService.getIAMService(AbstractCommonService.java:88) Iam url: https://iam.cn-north-1.myhwclouds.com//v3/auth/tokens
+2017-08-07 12:25:02 [main:1098]-[ERROR] com.huawei.smn.common.utils.HttpUtil.postForIamToken(HttpUtil.java:141) Unexpected response status: 401.  ErrorMessage is {"error": {"message": "Unauthorized.", "code": 401, "title": "Unauthorized"}}.
+2017-08-07 12:25:02 [main:1102]-[ERROR] com.huawei.smn.service.impl.SmsServiceImpl.smsPublish(SmsServiceImpl.java:79) Failed to send sms.
+java.lang.RuntimeException: Unexpected response status: 401。 ErrorMessage is {"error": {"message": "Unauthorized.", "code": 401, "title": "Unauthorized"}}
+	at com.huawei.smn.common.utils.HttpUtil.postForIamToken(HttpUtil.java:142)
+	at com.huawei.smn.service.impl.IAMServiceImpl.getAuthentication(IAMServiceImpl.java:117)
+	at com.huawei.smn.service.impl.SmsServiceImpl.smsPublish(SmsServiceImpl.java:70)
+	at common.huawei.smn.TestMain.main(TestMain.java:57)

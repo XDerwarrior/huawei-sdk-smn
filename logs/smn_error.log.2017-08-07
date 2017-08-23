@@ -1,0 +1,7 @@
+2017-08-07 12:25:02 [main:1098]-[ERROR] com.huawei.smn.common.utils.HttpUtil.postForIamToken(HttpUtil.java:141) Unexpected response status: 401.  ErrorMessage is {"error": {"message": "Unauthorized.", "code": 401, "title": "Unauthorized"}}.
+2017-08-07 12:25:02 [main:1102]-[ERROR] com.huawei.smn.service.impl.SmsServiceImpl.smsPublish(SmsServiceImpl.java:79) Failed to send sms.
+java.lang.RuntimeException: Unexpected response status: 401。 ErrorMessage is {"error": {"message": "Unauthorized.", "code": 401, "title": "Unauthorized"}}
+	at com.huawei.smn.common.utils.HttpUtil.postForIamToken(HttpUtil.java:142)
+	at com.huawei.smn.service.impl.IAMServiceImpl.getAuthentication(IAMServiceImpl.java:117)
+	at com.huawei.smn.service.impl.SmsServiceImpl.smsPublish(SmsServiceImpl.java:70)
+	at common.huawei.smn.TestMain.main(TestMain.java:57)

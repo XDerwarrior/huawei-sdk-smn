@@ -1,0 +1,150 @@
+2017-08-03 20:34:30 [main:5]-[INFO] com.huawe.smn.common.SmnConfiguration.reload(SmnConfiguration.java:106) Properties filepath is:config\configuration.properties
+2017-08-03 20:34:30 [main:8]-[INFO] TestMain.main(TestMain.java:43) SmnConfiguration [filepath=config\configuration.properties, domainName=liuqiangqiang, regionId=cn-north-1, iamUrl=https://iam.cn-north-1.myhwclouds.com/v3/auth/tokens, smnEndpoint=https://smn.cn-north-1.myhwclouds.com]
+2017-08-03 20:34:31 [main:1509]-[INFO] com.huawe.smn.model.request.sms.SmsPublishRequest.getRequestUri(SmsPublishRequest.java:90) Request url is: /v2/cffe4fc4c9a54219b60dbaf7b586e132/notifications/sms
+2017-08-03 20:35:44 [main:4]-[INFO] com.huawe.smn.common.SmnConfiguration.reload(SmnConfiguration.java:106) Properties filepath is:config\configuration.properties
+2017-08-03 20:35:44 [main:8]-[INFO] TestMain.main(TestMain.java:43) SmnConfiguration [filepath=config\configuration.properties, domainName=liuqiangqiang, regionId=cn-north-1, iamUrl=https://iam.cn-north-1.myhwclouds.com/v3/auth/tokens, smnEndpoint=https://smn.cn-north-1.myhwclouds.com]
+2017-08-03 20:35:45 [main:1208]-[INFO] com.huawe.smn.model.request.sms.SmsPublishRequest.getRequestUri(SmsPublishRequest.java:90) Request url is: /v2/cffe4fc4c9a54219b60dbaf7b586e132/notifications/sms
+2017-08-03 20:51:08 [main:4]-[INFO] com.huawe.smn.common.SmnConfiguration.reload(SmnConfiguration.java:110) Properties filepath is:config\configuration.properties
+2017-08-03 20:51:08 [main:8]-[INFO] TestMain.main(TestMain.java:43) SmnConfiguration [filepath=config\configuration.properties, domainName=liuqiangqiang, regionId=cn-north-1, iamHostName=https://iam.cn-north-1.myhwclouds.com, smnEndpoint=https://smn.cn-north-1.myhwclouds.com]
+2017-08-03 20:51:09 [main:1432]-[INFO] com.huawe.smn.model.request.sms.SmsPublishRequest.getRequestUri(SmsPublishRequest.java:90) Request url is: /v2/cffe4fc4c9a54219b60dbaf7b586e132/notifications/sms
+2017-08-03 20:51:16 [main:4]-[INFO] com.huawe.smn.common.SmnConfiguration.reload(SmnConfiguration.java:110) Properties filepath is:config\configuration.properties
+2017-08-03 20:51:16 [main:7]-[INFO] TestMain.main(TestMain.java:43) SmnConfiguration [filepath=config\configuration.properties, domainName=liuqiangqiang, regionId=cn-north-1, iamHostName=https://iam.cn-north-1.myhwclouds.com, smnEndpoint=https://smn.cn-north-1.myhwclouds.com]
+2017-08-03 20:51:17 [main:1499]-[INFO] com.huawe.smn.model.request.sms.SmsPublishRequest.getRequestUri(SmsPublishRequest.java:90) Request url is: /v2/cffe4fc4c9a54219b60dbaf7b586e132/notifications/sms
+2017-08-03 20:53:20 [main:4]-[INFO] com.huawe.smn.common.SmnConfiguration.reload(SmnConfiguration.java:106) Properties filepath is:config\configuration.properties
+2017-08-03 20:53:20 [main:8]-[INFO] TestMain.main(TestMain.java:43) SmnConfiguration [filepath=config\configuration.properties, domainName=liuqiangqiang, regionId=cn-north-1, iamHostName=https://iam.cn-north-1.myhwclouds.com, smnEndpoint=https://smn.cn-north-1.myhwclouds.com]
+2017-08-03 20:53:21 [main:1316]-[INFO] com.huawe.smn.model.request.sms.SmsPublishRequest.getRequestUri(SmsPublishRequest.java:90) Request url is: /v2/cffe4fc4c9a54219b60dbaf7b586e132/notifications/sms
+2017-08-03 21:06:00 [main:4]-[INFO] com.huawe.smn.common.SmnConfiguration.reload(SmnConfiguration.java:106) Properties filepath is:config\configuration.properties
+2017-08-03 21:06:00 [main:7]-[INFO] TestMain.main(TestMain.java:43) SmnConfiguration [filepath=config\configuration.properties, domainName=liuqiangqiang, regionId=cn-north-1, iamEndpoint=iam.cn-north-1.myhwclouds.com, smnEndpoint=smn.cn-north-1.myhwclouds.com]
+2017-08-03 21:06:01 [main:677]-[ERROR] com.huawe.smn.service.impl.IAMServiceImpl.getAuthentication(IAMServiceImpl.java:125) Faied to get token from iam.e:{}
+java.net.UnknownHostException: iam.cn-north-1.myhwclouds.comiam.endpoint
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.huawe.smn.common.utils.HttpUtil.postForIamToken(HttpUtil.java:124)
+	at com.huawe.smn.service.impl.IAMServiceImpl.getAuthentication(IAMServiceImpl.java:117)
+	at com.huawe.smn.service.impl.SmsServiceImpl.smsPublish(SmsServiceImpl.java:70)
+	at TestMain.main(TestMain.java:49)
+2017-08-03 21:06:01 [main:682]-[ERROR] com.huawe.smn.service.impl.SmsServiceImpl.smsPublish(SmsServiceImpl.java:79) Failed to send sms.
+java.lang.RuntimeException: Failed to get token from iam.
+	at com.huawe.smn.service.impl.IAMServiceImpl.getAuthentication(IAMServiceImpl.java:126)
+	at com.huawe.smn.service.impl.SmsServiceImpl.smsPublish(SmsServiceImpl.java:70)
+	at TestMain.main(TestMain.java:49)
+Caused by: java.net.UnknownHostException: iam.cn-north-1.myhwclouds.comiam.endpoint
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.huawe.smn.common.utils.HttpUtil.postForIamToken(HttpUtil.java:124)
+	at com.huawe.smn.service.impl.IAMServiceImpl.getAuthentication(IAMServiceImpl.java:117)
+	... 2 more
+2017-08-03 21:09:47 [main:5]-[INFO] com.huawe.smn.common.SmnConfiguration.reload(SmnConfiguration.java:106) Properties filepath is:config\configuration.properties
+2017-08-03 21:09:47 [main:9]-[INFO] TestMain.main(TestMain.java:43) SmnConfiguration [filepath=config\configuration.properties, domainName=liuqiangqiang, regionId=cn-north-1, iamEndpoint=iam.cn-north-1.myhwclouds.com, smnEndpoint=smn.cn-north-1.myhwclouds.com]
+2017-08-03 21:09:47 [main:17]-[ERROR] com.huawe.smn.service.AbstractCommonService.getIAMService(AbstractCommonService.java:89) iamUrl:https://iam.cn-north-1.myhwclouds.comiam.endpoint
+2017-08-03 21:09:47 [main:639]-[ERROR] com.huawe.smn.service.impl.IAMServiceImpl.getAuthentication(IAMServiceImpl.java:125) Faied to get token from iam.e:{}
+java.net.UnknownHostException: iam.cn-north-1.myhwclouds.comiam.endpoint
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.huawe.smn.common.utils.HttpUtil.postForIamToken(HttpUtil.java:124)
+	at com.huawe.smn.service.impl.IAMServiceImpl.getAuthentication(IAMServiceImpl.java:117)
+	at com.huawe.smn.service.impl.SmsServiceImpl.smsPublish(SmsServiceImpl.java:70)
+	at TestMain.main(TestMain.java:49)
+2017-08-03 21:09:47 [main:642]-[ERROR] com.huawe.smn.service.impl.SmsServiceImpl.smsPublish(SmsServiceImpl.java:79) Failed to send sms.
+java.lang.RuntimeException: Failed to get token from iam.
+	at com.huawe.smn.service.impl.IAMServiceImpl.getAuthentication(IAMServiceImpl.java:126)
+	at com.huawe.smn.service.impl.SmsServiceImpl.smsPublish(SmsServiceImpl.java:70)
+	at TestMain.main(TestMain.java:49)
+Caused by: java.net.UnknownHostException: iam.cn-north-1.myhwclouds.comiam.endpoint
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.huawe.smn.common.utils.HttpUtil.postForIamToken(HttpUtil.java:124)
+	at com.huawe.smn.service.impl.IAMServiceImpl.getAuthentication(IAMServiceImpl.java:117)
+	... 2 more
+2017-08-03 21:12:36 [main:4]-[INFO] com.huawe.smn.common.SmnConfiguration.reload(SmnConfiguration.java:106) Properties filepath is:config\configuration.properties
+2017-08-03 21:12:36 [main:7]-[INFO] TestMain.main(TestMain.java:43) SmnConfiguration [filepath=config\configuration.properties, domainName=liuqiangqiang, regionId=cn-north-1, iamEndpoint=iam.cn-north-1.myhwclouds.com, smnEndpoint=smn.cn-north-1.myhwclouds.com]
+2017-08-03 21:12:37 [main:1047]-[ERROR] com.huawe.smn.common.utils.HttpUtil.postForIamToken(HttpUtil.java:142) Unexpected response status: 404.  ErrorMessage is {"message":"API not found","request_id":"4d47c514-bf24-4b6d-9122-029c7aca258c"}
+.
+2017-08-03 21:12:37 [main:1049]-[ERROR] com.huawe.smn.service.impl.SmsServiceImpl.smsPublish(SmsServiceImpl.java:79) Failed to send sms.
+java.lang.RuntimeException: Unexpected response status: 404。 ErrorMessage is {"message":"API not found","request_id":"4d47c514-bf24-4b6d-9122-029c7aca258c"}
+
+	at com.huawe.smn.common.utils.HttpUtil.postForIamToken(HttpUtil.java:143)
+	at com.huawe.smn.service.impl.IAMServiceImpl.getAuthentication(IAMServiceImpl.java:117)
+	at com.huawe.smn.service.impl.SmsServiceImpl.smsPublish(SmsServiceImpl.java:70)
+	at TestMain.main(TestMain.java:49)
+2017-08-03 21:15:47 [main:4]-[INFO] com.huawe.smn.common.SmnConfiguration.reload(SmnConfiguration.java:106) Properties filepath is:config\configuration.properties
+2017-08-03 21:15:47 [main:8]-[INFO] TestMain.main(TestMain.java:43) SmnConfiguration [filepath=config\configuration.properties, domainName=liuqiangqiang, regionId=cn-north-1, iamEndpoint=iam.cn-north-1.myhwclouds.com, smnEndpoint=smn.cn-north-1.myhwclouds.com]
+2017-08-03 21:15:49 [main:1335]-[INFO] com.huawe.smn.model.request.sms.SmsPublishRequest.getRequestUri(SmsPublishRequest.java:90) Request url is: /v2/cffe4fc4c9a54219b60dbaf7b586e132/notifications/sms
+2017-08-03 21:17:00 [main:4]-[INFO] com.huawe.smn.common.SmnConfiguration.reload(SmnConfiguration.java:106) Properties filepath is:config\configuration.properties
+2017-08-03 21:17:00 [main:7]-[INFO] TestMain.main(TestMain.java:43) SmnConfiguration [filepath=config\configuration.properties, domainName=liuqiangqiang, regionId=cn-north-1, iamEndpoint=iam.cn-north-1.myhwclouds.com, smnEndpoint=smn.cn-north-1.myhwclouds.com]
+2017-08-03 21:17:00 [main:14]-[INFO] com.huawe.smn.service.AbstractCommonService.getIAMService(AbstractCommonService.java:90) Iam url: https://iam.cn-north-1.myhwclouds.com//v3/auth/tokens
+2017-08-03 21:17:01 [main:1271]-[INFO] com.huawe.smn.model.request.sms.SmsPublishRequest.getRequestUri(SmsPublishRequest.java:90) Request url is: /v2/cffe4fc4c9a54219b60dbaf7b586e132/notifications/sms
+2017-08-03 21:27:26 [main:4]-[INFO] com.huawe.smn.common.SmnConfiguration.reload(SmnConfiguration.java:106) Properties filepath is:config\configuration.properties
+2017-08-03 21:27:26 [main:7]-[INFO] TestMain.main(TestMain.java:43) SmnConfiguration [filepath=config\configuration.properties, domainName=liuqiangqiang, regionId=cn-north-1, iamEndpoint=iam.cn-north-1.myhwclouds.com, smnEndpoint=smn.cn-north-1.myhwclouds.com]
+2017-08-03 21:27:26 [main:12]-[INFO] com.huawe.smn.service.AbstractCommonService.getIAMService(AbstractCommonService.java:90) Iam url: https://iam.cn-north-1.myhwclouds.com//v3/auth/tokens
+2017-08-03 21:27:27 [main:1369]-[ERROR] com.huawe.smn.common.utils.HttpUtil.postForIamToken(HttpUtil.java:142) Unexpected response status: 401.  ErrorMessage is {"error": {"message": "Unauthorized.", "code": 401, "title": "Unauthorized"}}.
+2017-08-03 21:27:27 [main:1371]-[ERROR] com.huawe.smn.service.impl.SmsServiceImpl.smsPublish(SmsServiceImpl.java:79) Failed to send sms.
+java.lang.RuntimeException: Unexpected response status: 401。 ErrorMessage is {"error": {"message": "Unauthorized.", "code": 401, "title": "Unauthorized"}}
+	at com.huawe.smn.common.utils.HttpUtil.postForIamToken(HttpUtil.java:143)
+	at com.huawe.smn.service.impl.IAMServiceImpl.getAuthentication(IAMServiceImpl.java:117)
+	at com.huawe.smn.service.impl.SmsServiceImpl.smsPublish(SmsServiceImpl.java:70)
+	at TestMain.main(TestMain.java:49)
+2017-08-03 21:27:55 [main:4]-[INFO] com.huawe.smn.common.SmnConfiguration.reload(SmnConfiguration.java:106) Properties filepath is:config\configuration.properties
+2017-08-03 21:27:55 [main:7]-[INFO] TestMain.main(TestMain.java:43) SmnConfiguration [filepath=config\configuration.properties, domainName=liuqiangqiang, regionId=cn-north-1, iamEndpoint=iam.cn-north-1.myhwclouds.com, smnEndpoint=smn.cn-north-1.myhwclouds.com]
+2017-08-03 21:27:55 [main:13]-[INFO] com.huawe.smn.service.AbstractCommonService.getIAMService(AbstractCommonService.java:90) Iam url: https://iam.cn-north-1.myhwclouds.com//v3/auth/tokens
+2017-08-03 21:27:56 [main:1336]-[INFO] com.huawe.smn.model.request.sms.SmsPublishRequest.getRequestUri(SmsPublishRequest.java:90) Request url is: /v2/cffe4fc4c9a54219b60dbaf7b586e132/notifications/sms

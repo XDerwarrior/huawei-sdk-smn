@@ -1,0 +1,4 @@
+2017-08-09 10:16:06 [main:5]-[INFO] com.huawei.smn.common.SmnConfiguration.reload(SmnConfiguration.java:108) Properties filepath is:config\configuration.properties
+2017-08-09 10:16:06 [main:9]-[INFO] common.huawei.smn.common.utils.TestMain.main(TestMain.java:51) SmnConfiguration [filepath=config\configuration.properties, domainName=liuqiangqiang, regionId=cn-north-1, iamEndpoint=iam.cn-north-1.myhwclouds.com, smnEndpoint=smn.cn-north-1.myhwclouds.com]
+2017-08-09 10:16:06 [main:19]-[INFO] com.huawei.smn.service.AbstractCommonService.getIAMService(AbstractCommonService.java:88) Iam url: https://iam.cn-north-1.myhwclouds.com//v3/auth/tokens
+2017-08-09 10:16:08 [main:1804]-[INFO] com.huawei.smn.model.request.sms.SmsPublishRequest.getRequestUri(SmsPublishRequest.java:99) Request url is: /v2/cffe4fc4c9a54219b60dbaf7b586e132/notifications/sms
